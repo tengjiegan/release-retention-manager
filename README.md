@@ -41,7 +41,7 @@ This project provides a ReleaseRetention class that processes project releases a
 
 2. Navigate to the project directory:
 
-    >  `cd RetentionReleaseManager`
+    >  `cd release-retention-manager`
 
 3. Restore dependencies:
 
