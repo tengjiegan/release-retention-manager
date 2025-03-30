@@ -37,7 +37,7 @@ This project provides a ReleaseRetention class that processes project releases a
 
 1. Clone the repository:
 
-    >  `git clone https://github.com/tengjiegan/RetentionReleaseManager.git`
+    >  `git clone https://github.com/tengjiegan/release-retention-manager.git`
 
 2. Navigate to the project directory:
 
