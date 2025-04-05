@@ -1,6 +1,7 @@
 # Continuous Deployment Retention Release Manager
 
 A .NET tool for managing release retention policies, determining which releases to keep based on deployment history.
+Technical documentation: https://docs.google.com/document/d/13RbCIq2Y4R6dJhJZEq48ArwnrGNGYPGpERSGXzuu4kw/edit?usp=sharing
 
 ## Purpose
 
