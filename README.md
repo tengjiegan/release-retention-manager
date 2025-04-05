@@ -18,7 +18,7 @@ This project provides a ReleaseRetention class that processes project releases a
 
 - HashSet
 - Linked List
-- Dictionary/HashTable
+- Dictionary
 
 ## NuGet Packages Used
 
