@@ -10,9 +10,9 @@ This project provides a ReleaseRetention class that processes project releases a
 
 ## Features
 
-- Analyzes releases across multiple projects and environments
+- Efficient tracking of deployments across multiple projects and environments
 - Considers deployment recency to prioritize retention
-- Efficiently handles memory usage through caching
+- Configurable capacity retention policy
 
 ## Algorithm and Data Structures
 
