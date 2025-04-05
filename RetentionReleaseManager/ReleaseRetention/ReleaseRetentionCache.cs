@@ -76,6 +76,7 @@ public class ReleaseRetentionCache(int capacity, ILogger logger)
             _head.Prev = node;
         }
         
+        // Update the head node reference to point to the new node
         _head = node;
         
         // If tail is null, set tail to the new node
@@ -94,20 +95,24 @@ public class ReleaseRetentionCache(int capacity, ILogger logger)
         // Adjust previous node pointer
         if (node.Prev != null)
         {
+            // Connect the node previous pointer to point to the next node
             node.Prev.Next = node.Next;
         }
         else
         {
+            // If removing the head node, update _head to point to the next node
             _head = node.Next;
         }
         
         // Adjust next node pointer
         if (node.Next != null)
         {
+            // Connect the next node to the previous node
             node.Next.Prev = node.Prev;
         }
         else
         {
+            // If removing the tail node, update _tail to point to the previous node
             _tail = node.Prev;
         }
     }
@@ -122,15 +127,19 @@ public class ReleaseRetentionCache(int capacity, ILogger logger)
         // Get the oldest deployed release and remove it 
         string releaseId = _tail.Entry.ReleaseId;
         _dictionary.Remove(releaseId);
+        
+        // Update _tail to point to the previous node
         _tail = _tail.Prev;
         
         // Update new tail next pointer
         if (_tail != null)
         {
+            // Set the new _tail next pointer to null since it is now the last node
             _tail.Next = null;
         }
         else
         {
+            // If the list is now empty, set _head to null as well
             _head = null;
         }
         
