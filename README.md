@@ -2,7 +2,7 @@
 
 A .NET tool for managing release retention policies, determining which releases to keep based on deployment history.
 
-Technical documentation: https://docs.google.com/document/d/13RbCIq2Y4R6dJhJZEq48ArwnrGNGYPGpERSGXzuu4kw/edit?usp=sharing
+[Technical documentation] https://docs.google.com/document/d/13RbCIq2Y4R6dJhJZEq48ArwnrGNGYPGpERSGXzuu4kw/edit?usp=sharing
 
 ## Purpose
 
@@ -11,14 +11,14 @@ This project provides a ReleaseRetention class that processes project releases a
 ## Features
 
 - Efficient tracking of deployments across multiple projects and environments
-- Considers deployment recency to prioritize retention
+- Considers deployment recency to prioritize retentions
 - Configurable capacity retention policy
 
 ## Algorithm and Data Structures
 
 - HashSet
-- Linked List
 - Dictionary
+- Doubly Linked List
 
 ## NuGet Packages Used
 
@@ -57,4 +57,4 @@ This project provides a ReleaseRetention class that processes project releases a
 
 Run the unit tests using the following command:
 
-> `dotnet test`
+>  `dotnet test`
