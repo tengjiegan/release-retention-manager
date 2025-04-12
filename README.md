@@ -39,7 +39,7 @@ This project provides a ReleaseRetention class that processes project releases a
 | **Reordering (Move to Head)**    | `O(1)`             | Recently deployed releases can be moved in constant time              |
 | **Lookup (Find by Release ID)**  | `O(1)`             | Dictionary provides fast access reference to the nodes                |
 | **Maintains Recency Order**      | `O(n log n)`       | Deployments are externally sorted before being passed                 |
-| **Efficiently Keeps Top N Items**| `O(1)`             | Easy to evict tail nodes beyond the allowed capacity                  |
+| **Efficiently Keeps N Items**    | `O(1)`             | Easy to evict tail nodes beyond the allowed capacity                  |
 
 </div>
 
