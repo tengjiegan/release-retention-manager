@@ -1,4 +1,4 @@
-# Continuous Deployment Retention Release Manager
+# 🚨 Continuous Deployment Retention Release Manager
 
 A .NET tool for managing release retention policies, determining which releases to keep based on deployment history.
 
